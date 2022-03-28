@@ -1,9 +1,8 @@
 #include <stdio.h>
 int main(){
-    int n = 2;
-    int n2 = 6;
-    printf("and %d\n", (n&n2)); 
-    printf("or %d\n", (n|n2)); 
-    printf("xor %d\n", (n^n2));
+    int risultato;
+    scanf("%d", &risultato);
+    (risultato>=0) ? printf("voto positivo\n")
+            : printf("voto negativo\n");
     return 0;
 }

@@ -1,7 +1,9 @@
-#include<stdio.h>
-#include <string.h>
-int main(){
-char stringa[20]={'c', 'i', 'a', 'o', '\0'};
-printf("contenuto stringa: %d",strlen(stringa));
-return 0;
+# include < stdio.h >
+# include < stringa.h >
+int Main (){
+char stringa[ 5 ]={ ' t ' , ' p ' , ' s ' , ' i ' , ' t ' , ' \0 ' };
+carattere stringa2[ 12 ];
+strcpy (stringa2,ch);
+printf ( " Il valore della seconda stringa è: %s " ,stringa2);
+ritorno 0 ;
 }

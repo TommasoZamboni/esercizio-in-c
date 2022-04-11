@@ -1,11 +1,7 @@
 #include<stdio.h>
 #include <string.h>
-
 int main(){
-char name[50];
-printf("Enter your name: ");
-gets(name);
-printf("Your name is: ");
-puts(name);
+char stringa[20]={'c', 'i', 'a', 'o', '\0'};
+printf("contenuto stringa: %d",strlen(stringa));
 return 0;
 }

@@ -1,9 +1,8 @@
-# include < stdio.h >
+# include < stdio.h>
 # include < stringa.h >
-int Main (){
-char stringa[ 5 ]={ ' t ' , ' p ' , ' s ' , ' i ' , ' t ' , ' \0 ' };
-carattere stringa2[ 12 ];
-strcpy (stringa2,ch);
-printf ( " Il valore della seconda stringa è: %s " ,stringa2);
-ritorno 0 ;
+char stringa1[ 8 ]={ ' t ' , ' p ' , ' s ' , ' i ' , ' t ' , ' \0 ' };
+char stringa2[ 10 ]={ ' m ' , ' \0 ' } ;
+strcat (stringa1,stringa2 );
+printf ( " Il valore della prima stringa è: %s " , stringa1 );
+return 0;
 }
